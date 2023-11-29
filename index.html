@@ -1,46 +1,49 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gestión de Maquillaje</title>
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
 
-<h2>Gestión de Maquillaje</h2>
+    <h2>Maquillaje Gestion</h2>
 
-<form id="maquillajeForm">
-    <label for="nombre">Nombre:</label>
-    <input type="text" id="nombre" required>
+    <form id="maquillajeForm">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" required>
 
-    <label for="fechaLanzamiento">Fecha de Lanzamiento:</label>
-    <input type="date" id="fechaLanzamiento" required>
+        <label for="fechaLanzamiento">Fecha de Lanzamiento:</label>
+        <input type="date" id="fechaLanzamiento" required>
 
-    <label for="marca">Marca:</label>
-    <input type="text" id="marca" required>
+        <label for="marca">Marca:</label>
+        <input type="text" id="marca" required>
 
-    <label for="tipo">Tipo:</label>
-    <input type="text" id="tipo" required>
+        <label for="tipo">Tipo:</label>
+        <input type="text" id="tipo" required>
 
-    <label for="precio">Precio:</label>
-    <input type="number" id="precio" required>
+        <label for="precio">Precio:</label>
+        <input type="number" id="precio" required>
 
-    <button type="button" id="submitBtn" onclick="altaMaquillaje()">Agregar</button>
-</form>
+        <button type="button" id="submitBtn" onclick="altaMaquillaje()">Agregar</button>
+    </form>
 
-<table id="maquillajeTable">
-    <tr>
-        <th>Nombre</th>
-        <th>Fecha de Lanzamiento</th>
-        <th>Marca</th>
-        <th>Tipo</th>
-        <th>Precio</th>
-        <th>Acciones</th>
-    </tr>
-</table>
+    <table id="maquillajeTable">
+        <tr>
+            <th>Nombre</th>
+            <th>Fecha de Lanzamiento</th>
+            <th>Marca</th>
+            <th>Tipo</th>
+            <th>Precio</th>
+            <th>Acciones</th>
+        </tr>
+    </table>
 
-<script src="scripts.js"></script>
+    <script src="scripts.js"></script>
 
 </body>
+
 </html>
